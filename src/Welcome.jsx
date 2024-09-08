@@ -13,7 +13,7 @@ export default function Welcome() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name && date) { // Check if inputs are not empty
+    if (name && date){
       addTodoItem(id, name, date);
       setid(id +1)
       setName("");

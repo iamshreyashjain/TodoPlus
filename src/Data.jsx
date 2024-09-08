@@ -4,10 +4,6 @@ import { todoList } from "./store/todolist_Context";
 export default function Data() {
   const { todoItems, deleteTodoItem } = useContext(todoList);
 
-  const dlt = (id) => {
-    deleteTodoItem(id);
-  };
-
   
   return (
     <>
@@ -28,7 +24,7 @@ export default function Data() {
                   <div className="w-full">{item.date}</div>
                   <button
                     className="border border-slate-500 py-2 px-2 rounded-lg outline-none w-full"
-                    onClick={() => dlt(item.id)}
+                    onClick={() => deleteTodoItem(item.id)}
                   >
                     Delete
                   </button>

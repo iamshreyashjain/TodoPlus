@@ -12,6 +12,7 @@ export default function LoginScreen() {
     useEffect(() => {
         // Simulate a loading period (e.g., fetching data)
         setTimeout(() => {
+            // setLoading(true)
             setLoading(false)
         }, 500); // Adjust the time as necessary
     }, []);
@@ -33,7 +34,7 @@ export default function LoginScreen() {
                             <img src={Logo3} className='w-1/6 shadow-md shadow-gray-400 rounded-full' />
                             <img src={LoginScreenIMG} className='' />
                             <p className='text-sm'>
-                                <i>A great way your day to day task<br /></i>
+                            <i>A great way to manage your day-to-day tasks<br /></i>
                             </p>
                             <div className='flex gap-2 items-center'>
                                 <FaRegCopyright /><span className='text-slate-500'>Shreyash Jain</span>

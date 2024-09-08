@@ -2,7 +2,7 @@ import LoginScreenIMG from './assets/images/LoginScreenIMG.png';
 import { FaRegCopyright } from "react-icons/fa";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import Logo3 from './assets/images/2.png';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
@@ -94,9 +94,9 @@ export default function Registration() {
                             value={formData.phNo}
                             onChange={handlePhoneChange}
                             inputStyle={{
-                                width: '100%', // Set the desired width
-                                height: '48px', // Set the desired height
-                                padding: '10px 50px', // Adjust padding if necessary
+                                width: '100%', 
+                                height: '48px', 
+                                padding: '10px 50px', 
                             }}
                             buttonStyle={{
                                 height: '48px',
