@@ -13,7 +13,7 @@ export default function LoginScreen() {
         // Simulate a loading period (e.g., fetching data)
         setTimeout(() => {
             setLoading(false)
-        }, 500); // Adjust the time as necessary
+        }, 1500); // Adjust the time as necessary
     }, []);
 
     const [passwordVisible, setPasswordVisible] = useState(false);
