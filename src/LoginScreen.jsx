@@ -14,7 +14,7 @@ export default function LoginScreen() {
         setTimeout(() => {
             // setLoading(true)
             setLoading(false)
-        }, 500); // Adjust the time as necessary
+        }, 1500); // Adjust the time as necessary
     }, []);
 
     const [passwordVisible, setPasswordVisible] = useState(false);
