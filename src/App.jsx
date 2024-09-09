@@ -12,7 +12,7 @@ function App() {
 
   const deleteTodoItem = (id) => {
     const newTodoItems = todoItems.filter((item) => item.id !== id);
-    settodoItems(newTodoItems);
+    settodoItems(newTodoItems)
   };
 
   return (
