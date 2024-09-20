@@ -12,11 +12,18 @@ function App() {
 
   const deleteTodoItem = (id) => {
     const newTodoItems = todoItems.filter((item) => item.id !== id);
-    settodoItems(newTodoItems)
+    settodoItems(newTodoItems);
+  };
+
+  const updateTodoItem = (id, name, date) => {
+    const updatedItems = todoItems.map((item) =>
+      item.id === id ? { id, name, date } : item
+    );
+    settodoItems(updatedItems);
   };
 
   return (
-    <todoList.Provider value={{ todoItems, addTodoItem, deleteTodoItem }}>
+    <todoList.Provider value={{ todoItems, addTodoItem, deleteTodoItem, updateTodoItem }}>
       <Outlet />
     </todoList.Provider>
   );
