@@ -7,7 +7,7 @@ export default function LoginScreenSkeleton() {
                     <div className="w-1/6 h-20 bg-gray-200 rounded-full animate-pulse shadow-md shadow-gray-400 mb-4"></div>
 
                     {/* Skeleton for the second image */}
-                    <div className="w-5/6 min-h-80 mt-10 bg-gray-200 animate-pulse mb-4 rounded-lg"></div>
+                    <div className="w-4/6 min-h-80 mt-10 bg-gray-200 animate-pulse mb-4 rounded-full "></div>
 
                     {/* Skeleton for the text */}
                     <div className="w-3/4 h-8 bg-gray-200 rounded animate-pulse mb-2 mt-6"></div>
