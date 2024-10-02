@@ -4,5 +4,5 @@ export const todoList = createContext({
   todoItems: [],
   addTodoItem: () => {},
   deleteTodoItem: () => {},
-  editTodoItems: () =>{}
+  updateTodoItem: () =>{}
 });

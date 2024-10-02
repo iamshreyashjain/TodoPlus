@@ -10,9 +10,7 @@ export default function LoginScreen() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Simulate a loading period (e.g., fetching data)
         setTimeout(() => {
-            // setLoading(true)
             setLoading(false)
         }, 1500); // Adjust the time as necessary
     }, []);
