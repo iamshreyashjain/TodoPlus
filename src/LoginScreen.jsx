@@ -28,7 +28,7 @@ export default function LoginScreen() {
             ) : (
                 <div className="min-w-screen min-h-screen bg-slate-300 sm:flex">
                     <div className="hidden sm:w-2/3 sm:bg-slate-300 sm:flex sm:justify-center sm:items-center">
-                        <div className="w-1/2 p-4 rounded-lg bg-white flex flex-col items-center min-h-80">
+                        <div className="w-1/2 p-4 rounded-lg bg-white flex flex-col items-center min-h-96">
                             <img src={Logo3} className='w-1/6 shadow-md shadow-gray-400 rounded-full' />
                             <img src={LoginScreenIMG} className='' />
                             <p className='text-sm'>
