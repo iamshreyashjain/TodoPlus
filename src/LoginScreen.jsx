@@ -12,7 +12,7 @@ export default function LoginScreen() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 1500); // Adjust the time as necessary
+        }, 2500); // Adjust the time as necessary
     }, []);
 
     const [passwordVisible, setPasswordVisible] = useState(false);
